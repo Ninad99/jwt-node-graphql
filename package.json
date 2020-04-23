@@ -1,0 +1,41 @@
+{
+	"name": "jwt-node-graphql",
+	"version": "0.0.1",
+	"description": "jwt auth using Express.js + GraphQL",
+	"author": "Ninad Subba <ninuch7@gmail.com>",
+	"devDependencies": {
+		"@types/bcryptjs": "^2.4.2",
+		"@types/cookie-parser": "^1.4.2",
+		"@types/express": "^4.17.6",
+		"@types/graphql": "^14.5.0",
+		"@types/jsonwebtoken": "^8.3.9",
+		"@types/node": "^13.13.2",
+		"nodemon": "^2.0.3",
+		"ts-node": "8.9.0",
+		"typescript": "3.8.3"
+	},
+	"dependencies": {
+		"apollo-server-express": "^2.12.0",
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.5",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"graphql": "^14.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"pg": "^8.0.2",
+		"reflect-metadata": "^0.1.13",
+		"type-graphql": "^0.17.6",
+		"typeorm": "0.2.24"
+	},
+	"scripts": {
+		"start": "nodemon --exec ts-node src/server.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ninad99/jwt-node-graphql.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Ninad99/jwt-node-graphql/issues"
+	}
+}
