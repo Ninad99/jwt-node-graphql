@@ -173,5 +173,5 @@ Set-Cookie: jref=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW
 
 <br>
 
-**For generating a refresh token, a valid cookie (which was sent after a register or login mutation) must be sent to the** `/refresh_token` **route.**<br>
+**For generating a new access token, a valid refresh token (which was sent after a register or login mutation as a cookie) must be sent to the** `/refresh_token` **route.**<br>
 **Of course, [Postman](https://www.postman.com/) can be used for testing the refresh token route as well as making GraphQL queries.**
